@@ -116,7 +116,7 @@ export default function Footer() {
 
       {/* Bottom Bar */}
       <div className="mt-10 border-t border-gray-700 pt-6 text-center text-sm text-gray-400">
-        © 2024 Gurkhas Construction. All rights reserved. | Website Builder
+        © 2024 Gurkhas Construction. All rights reserved.
       </div>
     </footer>
   );
