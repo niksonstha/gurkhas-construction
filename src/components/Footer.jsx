@@ -1,13 +1,6 @@
 import { Link } from "react-router-dom";
-import {
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
-  Phone,
-  Mail,
-  MapPin,
-} from "lucide-react";
+import { Facebook, Instagram, Phone, Mail, MapPin } from "lucide-react";
+import { FaYoutube, FaTiktok } from "react-icons/fa"; // ✅ official icons
 
 export default function Footer() {
   return (
@@ -24,17 +17,37 @@ export default function Footer() {
           </p>
           {/* Socials */}
           <div className="flex space-x-4 mt-4">
-            <a href="#" className="hover:text-white">
+            <a
+              href="https://www.facebook.com/p/Gurkhas-Construction-100057628832417/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               <Facebook size={18} />
             </a>
-            <a href="#" className="hover:text-white">
-              <Twitter size={18} />
-            </a>
-            <a href="#" className="hover:text-white">
+            <a
+              href="https://www.instagram.com/consgurkhas/?hl=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
               <Instagram size={18} />
             </a>
-            <a href="#" className="hover:text-white">
-              <Linkedin size={18} />
+            <a
+              href="https://www.youtube.com/@gurkhasconstruction7640"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              <FaYoutube size={18} />
+            </a>
+            <a
+              href="https://www.tiktok.com/@gurkhascons?lang=en"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white"
+            >
+              <FaTiktok size={18} />
             </a>
           </div>
         </div>
@@ -98,16 +111,16 @@ export default function Footer() {
           <h3 className="text-lg font-semibold text-white">Contact Info</h3>
           <ul className="mt-4 space-y-3 text-sm">
             <li className="flex items-center space-x-2">
-              <Phone size={16} /> <span>+44 20 1234 5678</span>
+              <Phone size={16} /> <span>+44 75 7849 4841</span>
             </li>
             <li className="flex items-center space-x-2">
-              <Mail size={16} /> <span>info@gurkhasconstruction.co.uk</span>
+              <Mail size={16} /> <span>gurkhasconstruction@gmail.com</span>
             </li>
             <li className="flex items-start space-x-2">
               <MapPin size={16} />
               <span>
-                123 Construction Street <br />
-                London, UK SW1A 1AA
+                25 Courtfield Avenue, HA1 2JX, <br />
+                Harrow, United Kingdom
               </span>
             </li>
           </ul>
